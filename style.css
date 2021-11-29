@@ -1,0 +1,128 @@
+html,
+body {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+}
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    width: 25rem;
+    border-radius: 3%;
+    box-shadow: 0px 0px 100px 20px black;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.optimal-margin {
+    margin: 1.5rem;
+}
+
+hr {
+    width: 22rem;
+    border-color: #8bacd9;
+}
+
+h1 {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 1.3rem;
+    font-weight: lighter;
+}
+
+.p-color {
+    color: #8bacd9;
+}
+
+#eth-price {
+    color: hsl(178, 100%, 50%);
+    font-weight: bolder;
+}
+
+#eq-image {
+    width: 22rem;
+    border-radius: 2%;
+    margin-bottom: 0px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+}
+
+#avatar-img {
+    width: 3rem;
+    margin-top: 0.8rem;
+    border: 0.1rem solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+}
+
+a {
+    margin-left: 0.3rem;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 90%);
+}
+
+h1:hover,
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.overlay {
+    width: 22rem;
+    height: 22rem;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 2%;
+}
+
+#card-image {
+    position: relative;
+}
+
+#eye-view {
+    display: none;
+    position: absolute;
+    top: 9rem;
+    left: 9.6rem;
+}
+
+#eq-image:hover {
+    opacity: 0.4;
+}
+
+.overlay:hover #eye-view {
+    display: initial;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px) {
+    :root {
+        font-size: 12px;
+    }
+    #eye-view {
+        left: 9rem;
+    }
+}
+
+.attribution {
+    color: hsl(0, 0%, 100%);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
