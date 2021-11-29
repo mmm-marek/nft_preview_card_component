@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Links
 
--   Live Site URL: [Add live site URL here](https://mmm-marek.github.io/nft_preview_card_component/)
+-   Live Site URL: [Here](https://mmm-marek.github.io/nft_preview_card_component/)
 
 ### Built with
 
